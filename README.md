@@ -13,7 +13,7 @@ As can be seen in the above blurb, it is important for us to understand that ban
 
 In this section, we will be evaluating six different machine learning models by evaluating their balanced accuracy, precision, and recall scores.  So it is important to explain each of these scores and what information they convey:
 * Balanced Accuracy Score:
-    Accuracy measures --------
+    Accuracy describes the percentage of predictions that are correct.  It is arrived at by the following formula: (True Positive + True Negative)/(True Positive + False Positive + False Negative + True Negative). However, this can be problematic when there is a large imbalance in the outcomes.  Balanced Accuracy takes into account both the true positive rate (sensitivity) and the true negative rate (specificity).  Balanced accuracy is derived by the following formula: (sensitivity + specificity)/2.
     
 * Precision:
     Precision, also known as positive predictive value (PPV), is declaring how likely is a positive prediction likely to be a true positive.  It is found by taking the number of true positives and dividing by the sum of all positives (true positives and false positives).
