@@ -11,4 +11,14 @@ As can be seen in the above blurb, it is important for us to understand that ban
 
 ## Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
+In this section, we will be evaluating six different machine learning models by evaluating their balanced accuracy, precision, and recall scores.  So it is important to explain each of these scores and what information they convey:
+* Balanced Accuracy Score:
+    Accuracy measures --------
+    
+* Precision:
+    Precision, also known as positive predictive value (PPV), is declaring how likely is a positive prediction likely to be a true positive.  It is found by taking the number of true positives and dividing by the sum of all positives (true positives and false positives).
+    
+* Recall scores:
+    Recall is also known as sensitivity.  It is declaring how likely is it that my model will miss a true positive.  It is found by taking the number of true poistives and dividing by (true positives + false negatives)
+
 ## Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
