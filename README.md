@@ -6,7 +6,7 @@ The purpose of this analysis is to evaluate a variety of machine learning models
 
 ![image](https://user-images.githubusercontent.com/90977689/150642820-839d263b-fdeb-47ab-9e42-b1bb9a848530.png)
 
-
+As can be seen in the above blurb, it is important for us to understand that banks will use interest rate to help manage the risk.  Understanding this helps put into perspective how our model might fit into the big picture.  
 
 
 ## Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
