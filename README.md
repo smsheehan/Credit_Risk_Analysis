@@ -23,7 +23,7 @@ In this section, we will be evaluating six different machine learning models by 
 
 ### Models:
 
-Model 1: Naive Random Oversampling.
+<u> Model 1: Naive Random Oversampling.
 
 ![image](https://user-images.githubusercontent.com/90977689/150646210-3b12de32-f323-489b-969e-d89e36a17dab.png)
 
