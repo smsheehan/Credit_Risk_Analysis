@@ -23,29 +23,29 @@ In this section, we will be evaluating six different machine learning models by 
 
 ### Models:
 
-<u>Model 1: Naive Random Oversampling.</u>
+**Model 1: Naive Random Oversampling.**
 
 ![image](https://user-images.githubusercontent.com/90977689/150646210-3b12de32-f323-489b-969e-d89e36a17dab.png)
 
 This model has a balanced accuracy of 62.9%, a precision of 1 percent for high_risk loans, and a recall of 57% for high_risk loans.
 
-Model 2: SMOTE Oversampling.
+**Model 2: SMOTE Oversampling.**
 
 ![image](https://user-images.githubusercontent.com/90977689/150646331-32ac4177-6838-4e40-b767-b954caa02380.png)
 
-Model 3: Undersampling with Cluster Centroids algorithm.
+**Model 3: Undersampling with Cluster Centroids algorithm.**
 
 ![image](https://user-images.githubusercontent.com/90977689/150646395-f611f88e-d99b-4b00-9ecd-817a0eb20b40.png)
 
-Model 4: Combination over and under sampling with SMOTEENN.
+**Model 4: Combination over and under sampling with SMOTEENN.**
 
 ![image](https://user-images.githubusercontent.com/90977689/150646428-6cf50564-a40a-492e-84f8-aa5e523e6853.png)
 
-Model 5: Balanced Random Forest Classifier.
+**Model 5: Balanced Random Forest Classifier.**
 
 ![image](https://user-images.githubusercontent.com/90977689/150646480-d4296f61-eef2-4e61-a36f-c3b8d4b1069c.png)
 
-Model 6: Easy Ensemble AdaBoost Classifier.
+**Model 6: Easy Ensemble AdaBoost Classifier.**
 
 ![image](https://user-images.githubusercontent.com/90977689/150646512-37e226b6-e3f9-41f4-9872-4ea8582bfacd.png)
 
