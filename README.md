@@ -25,7 +25,8 @@ In this section, we will be evaluating six different machine learning models by 
 
 **Model 1: Naive Random Oversampling.**
 
-![image](https://user-images.githubusercontent.com/90977689/150646210-3b12de32-f323-489b-969e-d89e36a17dab.png)
+![image](https://user-images.githubusercontent.com/90977689/150648657-1a41ccf6-cfa1-4775-be01-5cd238d12080.png)
+
 
 This model has a balanced accuracy of 62.9%, a precision of 1 percent for high_risk loans, and a recall of 57% for high_risk loans.
 
@@ -33,22 +34,30 @@ This model has a balanced accuracy of 62.9%, a precision of 1 percent for high_r
 
 ![image](https://user-images.githubusercontent.com/90977689/150646331-32ac4177-6838-4e40-b767-b954caa02380.png)
 
+This model has a balanced accuracy of 62.8%, a precision of 1 percent for high_risk loans, and a recall of 62% for high_risk loans.
+
 **Model 3: Undersampling with Cluster Centroids algorithm.**
 
 ![image](https://user-images.githubusercontent.com/90977689/150646395-f611f88e-d99b-4b00-9ecd-817a0eb20b40.png)
+
+This model has a balanced accuracy of 53%, a precision of 1 percent for high_risk loans, and a recall of 61% for high_risk loans.
 
 **Model 4: Combination over and under sampling with SMOTEENN.**
 
 ![image](https://user-images.githubusercontent.com/90977689/150646428-6cf50564-a40a-492e-84f8-aa5e523e6853.png)
 
+This model has a balanced accuracy of 64.1%, a precision of 1 percent for high_risk loans, and a recall of 70% for high_risk loans.
+
 **Model 5: Balanced Random Forest Classifier.**
 
 ![image](https://user-images.githubusercontent.com/90977689/150646480-d4296f61-eef2-4e61-a36f-c3b8d4b1069c.png)
+
+This model has a balanced accuracy of 78.8%, a precision of 4 percent for high_risk loans, and a recall of 67% for high_risk loans.
 
 **Model 6: Easy Ensemble AdaBoost Classifier.**
 
 ![image](https://user-images.githubusercontent.com/90977689/150646512-37e226b6-e3f9-41f4-9872-4ea8582bfacd.png)
 
-
+This model has a balanced accuracy of 92.5%, a precision of 7 percent for high_risk loans, and a recall of 91% for high_risk loans.
 
 ## Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
