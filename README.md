@@ -61,4 +61,13 @@ This model has a balanced accuracy of 78.8%, a precision of 4 percent for high_r
 This model has a balanced accuracy of 92.5%, a precision of 7 percent for high_risk loans, and a recall of 91% for high_risk loans.
 
 ## Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+### Summary of the individual models:
+* Naive Random Oversampling has a balanced accuracy of 62.9%, a precision of 1 percent for high_risk loans, and a recall of 57% for high_risk loans.
+* SMOTE Oversampling has a balanced accuracy of 62.8%, a precision of 1 percent for high_risk loans, and a recall of 62% for high_risk loans.
+* Undersampling with Cluster Centroids algorithm has a balanced accuracy of 53%, a precision of 1 percent for high_risk loans, and a recall of 61% for high_risk loans.
+* Combination over and under sampling with SMOTEENN has a balanced accuracy of 64.1%, a precision of 1 percent for high_risk loans, and a recall of 70% for high_risk loans.
+* Balanced Random Forest Classifier has a balanced accuracy of 78.8%, a precision of 4 percent for high_risk loans, and a recall of 67% for high_risk loans.
+* Easy Ensemble AdaBoost Classifier has a balanced accuracy of 92.5%, a precision of 7 percent for high_risk loans, and a recall of 91% for high_risk loans.
+
+### Recommendation:
 The results as a whole highlight the challenges associated with predicting rare events.  However in the spirit of the famous quote "all models are wrong.  some models are useful" we need to determine whether any of these models could be useful for the proposed use case.  Since NPLs (non performing loans) are such a risk to the profitability of the business, this would be a case where we are much more interested in sensitivity than in precision.  It is clear that, while not perfect, the Easy Ensemble AdaBoost Classifier will be of utility to our business and should be used.  The easiest way to demonstrate this is to look at the NPL rate with and without the model.  If the model is not utilized, the total number of loans = 17,205.  We know that 87 will be NPLs(high_risk) and 17,118 will be low_risk.  This provides us with a 0.5% NPL rate (calculation: (87/17205)* 100).  If we utilize the model to disqualify predicted high_risk applicants we would grant a total of 16,147 loans.  8 of these loans would prove to be high risk.  This provides us with a 0.05% NPL rate (calculation: (8/16147)* 100).  Thus utilizing the AdaBoost model provides our business with a one order of magnitude improvement in our NPL rate.
